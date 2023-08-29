@@ -1,0 +1,3 @@
+[submodule "mcfg"]
+	path = mcfg
+	url = https://github.com/FelixEcker/mcfg.git
