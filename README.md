@@ -10,8 +10,9 @@ tool is not always 100% valid code.
 The exact command is: `h2pas -C -D -l mcfg mcfg/src/mcfg.h -o src/mcfg.pas`
 
 ### Common Issues
-* Pointer types are declared in a type block before their destination type
-Example: ```pascal
+* Pointer types are declared in a type block before their destination type <br>
+**Example:**
+```pascal
 type
     Pmcfg_file = ^mcfg_file;
     
